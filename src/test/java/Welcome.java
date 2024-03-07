@@ -1,5 +1,10 @@
+import org.testng.annotations.Test;
+
 public class Welcome {
-    public static void main(String[] args){
+
+    @Test
+    public void HelloWorld()
+    {
         System.out.println("sample");
     }
 }
